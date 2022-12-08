@@ -18,14 +18,13 @@ class DayTwoSolution():
     }
 
     def __init__(self, file) -> None:
-        
+
         with open(file) as f:
 
             self.matchList = [x for x in f.read().split("\n")]
 
-    
     def getPoints(self):
-        
+
         for i in self.matchList:
             self.points += self.outcomes.get(i)
 
