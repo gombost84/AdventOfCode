@@ -1,6 +1,6 @@
 
 
-class Elves():
+class DayOneSolution():
 
     listOfCalories = []
     listOfSums = []
@@ -29,6 +29,6 @@ class Elves():
 
         return self.firstCal + self.secondCal + self.thirdCal
 
-aa = Elves("input.txt")
+aa = DayOneSolution("input.txt")
 
 print(aa.getList())
