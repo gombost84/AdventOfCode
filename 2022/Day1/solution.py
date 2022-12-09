@@ -10,7 +10,7 @@ class DayOneSolution():
 
     def __init__(self, file) -> None:
 
-        with open(file, 'r') as f:
+        with open(file) as f:
             a = f.read().split('\n\n')
 
             for i in a:
