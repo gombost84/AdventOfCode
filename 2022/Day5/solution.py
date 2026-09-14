@@ -11,7 +11,6 @@ class DayFiveSolution():
             bb = aa[0]
 
             bb = pd.DataFrame(bb.splitlines())
-            bb.explode([0])
 
             print(bb)
 
